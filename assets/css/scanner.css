@@ -1,0 +1,270 @@
+
+
+#audio{
+display: none
+}
+
+.menu_bar{
+display: none;
+}
+
+#logo{
+	width: 80px;
+	height: 80px;
+}
+
+.btnadd{
+	width: 5px;
+	size: 5px;
+	height: 5px;
+}
+
+
+.div-centro{
+	width: 100%;
+	height: 100%;
+
+}
+
+
+.div-izquierdo{
+	box-shadow: 0px 0px 8px 0.5px black;
+	padding: 3%;
+	width: 100%;
+	height: 650px;
+}
+
+.total{
+	font-family: Poppins-Regular;
+	font-size: 18px;
+	color: black;
+	line-height: 1.2;
+	font-weight: unset !important;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.div-pago{
+	width: 100%;
+	height: 10%;
+}
+
+.btn-pago{
+	width: 100%;
+	height: 100%;
+}
+
+.preciop{
+	font-size: 18px;
+}
+
+#rproducto{
+	font-size: 30px;
+	text-align: center;
+}
+
+#contenedor video{
+	border-radius: 10px;
+	margin-top: 10%;
+	margin-left: 40%;
+	margin-bottom: 5%;
+	max-width: 70%;
+	width: 70%;
+}
+#contenedor{
+	max-width: 70%;
+	position:relative;
+}
+canvas{
+	max-width: 70%;
+}
+canvas.drawingBuffer{
+	position:absolute;
+	top:25%;
+	left:50%;
+}
+
+
+/*---------------Tabla css-----------*/
+.contable{
+ 	-moz-border-radius: 20px; 
+  -webkit-border-radius: 20px; 
+	border-radius: 20px;
+	overflow: hidden;
+	height: 68%;
+}
+.table {
+	width: 100%;
+	display: table;
+	margin: 0;
+}
+
+.thead{
+	color: #ffffff;
+	background: #6c7ae0;
+}
+
+
+
+thead tr th{
+	font-family: Poppins-Regular;
+	font-size: 18px;
+	color: #fff;
+	line-height: 1.2;
+	font-weight: unset !important;
+
+	padding-top: 19px;
+	padding-bottom: 19px;
+}
+
+tbody{
+	background: #fff;
+}
+
+tbody tr td{
+	font-family: Poppins-Regular;
+	font-size: 15px;
+	color: #666666;
+	line-height: 1.2;
+	font-weight: unset !important;
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+
+tbody tr td:before {
+	font-family: Poppins-Bold;
+    font-size: 11px;
+    color: #808080;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: unset !important;
+
+    margin-bottom: 13px;
+    content: attr(data-title);
+    min-width: auto;
+    display: block;
+  }
+
+tbody tr:hover {
+ 	background-color: #ececff;
+ 	cursor: pointer;
+}
+
+.dispreciop{
+	color: #CC0000;
+	font-size: 13px;
+}
+
+
+
+/************* caja*******/
+
+  #formSentventa fieldset:not(:first-of-type) {
+    display: none;
+  }
+
+/**************************/
+
+
+
+
+@media screen and (max-width: 600px) {
+.menu_bar{
+display: block;
+}
+.tbproductos{
+	width:85%;
+	background: #fff;
+	height:100%;
+	top: 1%;
+	left:-100%;
+	margin:0;
+	position: fixed;
+}
+
+/*---------------Tabla css-----------*/
+.div-izquierdo{
+	box-shadow: 0px 0px 8px 0.5px black;
+	padding: 3%;
+	width: 100%;
+	height: 98%;
+}
+thead tr th{
+	font-family: Poppins-Regular;
+	font-size: 15px;
+	color: #fff;
+	line-height: 1.2;
+	font-weight: unset !important;
+
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+tbody{
+	background: #fff;
+}
+
+tbody tr td{
+	font-family: Poppins-Regular;
+	font-size: 11px;
+	color: #666666;
+	line-height: 1;
+	font-weight: unset !important;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+
+tbody tr td:before {
+	font-family: Poppins-Bold;
+    font-size: 11px;
+    color: #808080;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: unset !important;
+
+    margin-bottom: 10px;
+    content: attr(data-title);
+    min-width: auto;
+    display: block;
+  }
+
+tbody tr:hover {
+ 	background-color: #ececff;
+ 	cursor: pointer;
+}
+
+.dispreciop{
+	color: #CC0000;
+	font-size: 10px;
+}
+.preciop{
+	color: #000000;
+}
+.btnadd{
+	width: 5px;
+	height: 5px;
+}
+
+#cantcarr{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  background:#DA7661;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 2px;
+  font-size: 10px;
+}
+
+}
